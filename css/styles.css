@@ -9,7 +9,7 @@ body {
 
 .inner {
   margin: 0 auto;
-  width: 500px;
+  width: 450px;
 }
 
 ul {
@@ -59,7 +59,7 @@ form {
 }
 
 input {
-  width: 320px;
+  width: 310px;
   line-height: 3em;
   font-family: "futura-pt", sans-serif;
   font-style: normal;
@@ -69,7 +69,6 @@ input {
 }
 
 input, 
-input[type="button"],
 input:invalid {
   background: #ca00d9;
 }
@@ -79,7 +78,8 @@ input:focus {
 }
 
 input[type="submit"] {
-  line-height: 1.788em;
+  line-height: 0;
+  height: 112px;
   display: block;
   width: 75px;
   float: right;
