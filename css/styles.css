@@ -1,0 +1,105 @@
+body {
+  background: #010101;
+  font-family: "futura-pt", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+.inner {
+  margin: 0 auto;
+  width: 500px;
+}
+
+ul {
+  margin-top: 0.25em;
+  width: 450px;
+}
+li {
+  padding-left: 0.5em
+}
+.levelOne {
+  background: #ff0052;
+}
+
+.levelTwo {
+  background: #ff2000;
+}
+
+.levelThree {
+  background: #ff7600;
+}
+
+.levelFour {
+  background: #ffa900;
+}
+
+.levelFive {
+  background: #d7e600;
+}
+
+.levelSix {
+  background: #00cc4b;
+}
+
+.levelSeven {
+  background: #0084cc;
+}
+
+.levelEight {
+  background: #ca00d9;
+  font-size: 20px;
+  line-height: 5.6em;
+  padding-left: 0;
+}
+
+form {
+  margin-left: 30px;
+}
+
+input {
+  width: 320px;
+  line-height: 3em;
+  font-family: "futura-pt", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  border: none;
+  text-transform: uppercase;
+}
+
+input, 
+input[type="button"],
+input:invalid {
+  background: #ca00d9;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  line-height: 1.788em;
+  display: block;
+  width: 75px;
+  float: right;
+  border-left: 4px solid #000;
+  text-decoration: none;
+  color: #000;
+  font-size: 60px;
+  font-weight: 700;
+  padding-left: 15px;
+}
+
+input[type="submit"]:hover,
+.levelEight a:hover {
+  background: #ff00a9;
+}
+
+.levelEight a {
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding-left: 2em;
+}
