@@ -1,4 +1,57 @@
 body {
+  background: #FFF url('../img/background_wht.png') 0 0 repeat;
+  font-family: futura-pt, helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.main {
+  width: 980px;
+  margin: 0 auto;
+  border-top: 8px solid #000;
+}
+
+.inner {
+  
+}
+
+.phone {
+  float: left;
+  width: 491px;
+  background: blue;
+}
+
+.phone img {
+  max-width: 100%;
+}
+
+.content {
+  width: 489px;
+  float: left;
+  background: yellow;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+ul{
+ font-size: 22px 
+}
+
+p {
+  font-size: 16px;
+  text-align: right;
+}
+
+footer{
+  width: 980px;
+  border-bottom: 8px solid #000;
+  background: red;
+  margin: 0 auto;  
+}
+
+
+/*body {
   background: #010101;
   font-family: "futura-pt", sans-serif;
   font-style: normal;
@@ -105,4 +158,4 @@ input[type="submit"]:hover,
   text-decoration: none;
   color: #000;
   padding-left: 2em;
-}
+}*/
