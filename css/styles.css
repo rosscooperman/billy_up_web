@@ -31,10 +31,8 @@ body:before {
 .phone {
   float: left;
   width: 491px;
-}
-
-.phone img {
-  max-width: 100%;
+  height: 752px;
+  background: url(../img/screen.png) no-repeat;
 }
 
 .content {
@@ -95,3 +93,57 @@ footer{
   border-bottom: 8px solid #000;  
   clear: both;
 }
+
+
+/* Slideshow */
+
+#slideshow ul:after {  
+content: ".";  
+clear: both;  
+display: block;  
+height: 0;  
+visibility: hidden;
+}
+
+.slides ul {
+  width: 1566px;
+  margin: 0;
+  padding: 0;
+}
+
+.slides {  
+overflow: hidden;  
+width: 261px;
+height: 392px;
+margin: 172px 0 0 112px;
+}
+
+.slides li {
+  float: left;  
+  width: 261px;
+  margin: 0;
+  padding: 0;
+}
+
+.slides-nav a {
+  text-decoration: none;
+  color: #222;
+}
+
+.slides-nav a:hover {
+  color: #ff4242;
+}
+
+
+/*.slides-nav li.on,
+.slides-nav li.on a {
+color: #ff4242;
+}
+*/
+.slides-nav li.on,
+.slides-nav li.on a {
+color: #FF6600;}
+
+
+
+
