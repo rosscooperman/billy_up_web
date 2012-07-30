@@ -134,16 +134,13 @@ margin: 172px 0 0 112px;
   color: #ff4242;
 }
 
-
-/*.slides-nav li.on,
-.slides-nav li.on a {
-color: #ff4242;
+#slideshow-nav li:hover {
+  cursor: pointer;
+  color: #047BCD;
 }
-*/
-.slides-nav li.on,
-.slides-nav li.on a {
-color: #FF6600;}
 
-
+.active {
+  color: #047BCD;
+}
 
 

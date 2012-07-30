@@ -33,15 +33,15 @@
   <div class="main clearfix">
     <div class="inner clearfix">
       
-      <div id="slideshow" class="phone">
+      <div class="phone">
         <div class="slides">
-          <ul>
-            <li><img src="img/slide_cover.gif" width="261" height="392" alt="Billy Splits Bills"></li>
+          <ul id="slideshow" >
             <li id="slide-one"><img src="img/slide_01.gif" width="261" height="392" alt="Number of people in your party"></li>
             <li id="slide-two"><img src="img/slide_02.gif" width="261" height="392" alt="Photograph your bill"></li>
             <li id="slide-three"><img src="img/slide_03.gif" width="261" height="392" alt="Accept items and give owners"></li>
             <li id="slide-four"><img src="img/slide_04.gif" width="261" height="392" alt="Add tip amount and tax amount"></li>
             <li id="slide-five"><img src="img/slide_05.gif" width="261" height="392" alt="Check out your totals bro!"></li>
+            <li><img src="img/slide_cover.gif" width="261" height="392" alt="Billy Splits Bills"></li>
           </ul>
         </div>
       </div>
@@ -50,19 +50,12 @@
       <div class="content">
         <h1>BILLY LETS YOU TAKE A PICTURE OF A RECEIPT AND EASILY SPLIT ITEMS & QUANTITIES AMONG GUESTS.</h1>
         
-        <ul class="slides-nav">
+        <ul id="slideshow-nav" class="slides-nav">
           <li>Select the number & names of guests</li>
           <li>Take a picture of your bill</li>
           <li>Approve & distribute items</li>
           <li>Select tax & tip amount</li>
           <li>Generate totals for each guest</li>
-          <!-- Fix this to include highlighting
-             <li><a href="#slide-one">Select the number & names of guests</a></li>
-             <li><a href="#slide-two">Take a picture of your bill</a></li>
-             <li><a href="#slide-three">Approve & distribute items</a></li>
-             <li><a href="#slide-four">Select tax & tip amount</a></li>
-             <li><a href="#slide-five">Generate totals for each guest</a></li> 
-           -->
         </ul>
         
         <a href="http://itunes.apple.com/us/app/billy-splits-bills/id538940070?ls=1&mt=8">
@@ -86,10 +79,10 @@
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 
 <script src="js/libs/jquery.cycle.js" ></script>
-<script src="js/libs/slideshow.js" ></script>
 
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
+
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
